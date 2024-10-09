@@ -51,10 +51,10 @@ Version: 42
 Depends: libc, ethtool, lm-sensors
 Section: opt
 Architecture: x86_64
-Installed-Size: 1814
+Installed-Size: 1813
 Filename: autocore_42_x86_64.ipk
 Size: 2494
-SHA256sum: 9390260a4c2961c4faeb06e3039990a3e03a8578e49109b1aa1f858d73fdbf9e
+SHA256sum: f74cb1f580715f89a895fc9c418099117b72763a42c8a8120fcb7ba97414e24c
 Description:  auto core loadbalance script.
 
 Package: base-files
@@ -63,10 +63,10 @@ Depends: libc, netifd, jsonfilter, usign, openwrt-keyring, fstools, fwtool
 License: GPL-2.0
 Section: base
 Architecture: x86_64
-Installed-Size: 29305610
+Installed-Size: 29304154
 Filename: base-files_1-24.10.9_x86_64.ipk
-Size: 29305380
-SHA256sum: 647a5ec4bff355961a756c47d5c8a8a0223a2cb59e97d98bb41ec740d6901e91
+Size: 29303627
+SHA256sum: c524fcf722cd5aa0e1e23573629eb96939cbe7bde60ade4f7b76cc89cbb04596
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount
@@ -2600,10 +2600,10 @@ Depends: kernel (=5.15.167-1-d3b960f62a85ee91c909201034d0a701), kmod-ipt-conntra
 Conflicts: kmod-shortcut-fe-drv, kmod-shortcut-fe-cm
 Section: kernel
 Architecture: x86_64
-Installed-Size: 10502
+Installed-Size: 10499
 Filename: kmod-fast-classifier_5.15.167-6_x86_64.ipk
-Size: 11303
-SHA256sum: 2a6fd0a7b5b936d8bcb8c6c823ea2668a424efc1d822ca308209f516d5558a6a
+Size: 11299
+SHA256sum: c93691f66c7cc6db687e8a3010d922fca5511b05a8d33c44ddad9f44a3515571
 Description:  FAST Classifier talks to SFE to make decisions about offloading connections
 
 Package: kmod-fb-cfb-copyarea
@@ -5261,10 +5261,10 @@ Depends: kernel (=5.15.167-1-d3b960f62a85ee91c909201034d0a701), kmod-nf-ipt, kmo
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 7348
+Installed-Size: 7345
 Filename: kmod-ipt-fullconenat_5.15.167+2022-02-13-108a36cb-6_x86_64.ipk
-Size: 8187
-SHA256sum: c676ba5da847e032d219a2df226dbb16fbe11c49a1a9dfd4507693b35b024f95
+Size: 8185
+SHA256sum: 4c1d47919433e86da8479bd99f5e2bfa91cdea0fee46db89ab9d2c463e359fa1
 Description:  FULLCONENAT netfilter module
 
 Package: kmod-ipt-fuzzy
@@ -7542,10 +7542,10 @@ Depends: kernel (=5.15.167-1-d3b960f62a85ee91c909201034d0a701), kmod-ipt-conntra
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 71012
+Installed-Size: 71009
 Filename: kmod-natflow_5.15.167+8a68613-0_x86_64.ipk
-Size: 71744
-SHA256sum: 745f287a6834db66393dbfb31b430fa102b260b006d4348f5f94554506bed13f
+Size: 71747
+SHA256sum: a31cb08f5636570cbcaea11727d81be96baaf6ad73848eedb8954eb9265a6779
 Description:  fast nat forward kmod
 
 Package: kmod-natsemi
@@ -8450,10 +8450,10 @@ Version: 5.15.167-1
 Depends: kernel (=5.15.167-1-d3b960f62a85ee91c909201034d0a701), kmod-ipt-conntrack
 Section: Derry Apps
 Architecture: x86_64
-Installed-Size: 106834
+Installed-Size: 106833
 Filename: kmod-oaf_5.15.167-1_x86_64.ipk
-Size: 106929
-SHA256sum: 8f887d8504921ecc09ea3617439c3f4d7f573c64dc0c58f0792c1e88d0de8a48
+Size: 106924
+SHA256sum: 1b1afdb33bbfad1b2c4a7b1d0baacef8e4ca8f99a8656658bd9de74665e58526
 Description:  open appfilter kernel module 
 
 Package: kmod-oid-registry
@@ -10079,10 +10079,10 @@ Depends: kernel (=5.15.167-1-d3b960f62a85ee91c909201034d0a701), kmod-ipt-conntra
 Conflicts: kmod-shortcut-fe-drv
 Section: kernel
 Architecture: x86_64
-Installed-Size: 6481
+Installed-Size: 6479
 Filename: kmod-shortcut-fe-cm_5.15.167-8_x86_64.ipk
-Size: 7252
-SHA256sum: 0c0c850505c20d23a3f9e6813c8a87d2a265ed87463dcd0c4dee3961f0b97c43
+Size: 7244
+SHA256sum: f61d6ac20e66a6fd536926f94c98878e9c0d014cb69e6788f6ffa13c4aca9d20
 Description:  Kernel driver for SFE
 
 Package: kmod-shortcut-fe
@@ -10091,10 +10091,10 @@ Depends: kernel (=5.15.167-1-d3b960f62a85ee91c909201034d0a701), kmod-nf-conntrac
 Provides: shortcut-fe
 Section: kernel
 Architecture: x86_64
-Installed-Size: 25282
+Installed-Size: 25280
 Filename: kmod-shortcut-fe_5.15.167-8_x86_64.ipk
-Size: 25989
-SHA256sum: c11bf95870bd8cbde7cf7900b62d432efd331c21dc2ce573655cce7569cbbc8a
+Size: 25974
+SHA256sum: 1ff923203e440e795589f5364e2a1cd5dca124461fb7164bf916d4b32ae3cff4
 Description:  Kernel driver for SFE
 
 Package: kmod-siit
@@ -11385,10 +11385,10 @@ Conflicts: kmod-usb-net-rtl8152
 License: GPL-2.0-only
 Section: kernel
 Architecture: x86_64
-Installed-Size: 122020
+Installed-Size: 122019
 Filename: kmod-usb-net-rtl8152-vendor_5.15.167+2.18.1.20240701-1_x86_64.ipk
-Size: 116244
-SHA256sum: 7b976b0894d96a1799aca35c9535d245a6122bc82ec7e2e59864fee94f80da17
+Size: 116000
+SHA256sum: d7909412652124a459af44175ca5c62dbede29bd7f324a4162f46740e680d2ba
 Description:  Kernel module for Realtek RTL8152/RTL8153 Based USB Ethernet Adapters
 
 Package: kmod-usb-net-rtl8152
