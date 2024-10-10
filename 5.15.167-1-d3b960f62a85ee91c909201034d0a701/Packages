@@ -51,10 +51,10 @@ Version: 42
 Depends: libc, ethtool, lm-sensors
 Section: opt
 Architecture: x86_64
-Installed-Size: 1813
+Installed-Size: 1814
 Filename: autocore_42_x86_64.ipk
-Size: 2495
-SHA256sum: e2f547443b2d6ffd4a8a79a04a71092d474441fec9fbbc9bb0c0fbd47e0a8947
+Size: 2498
+SHA256sum: d01197c35e0fb1a350c944e0bea10cc57cb0cfd2e022a947c125978816965442
 Description:  auto core loadbalance script.
 
 Package: base-files
@@ -63,10 +63,10 @@ Depends: libc, netifd, jsonfilter, usign, openwrt-keyring, fstools, fwtool
 License: GPL-2.0
 Section: base
 Architecture: x86_64
-Installed-Size: 29476303
+Installed-Size: 29317028
 Filename: base-files_1-24.10.10_x86_64.ipk
-Size: 29475591
-SHA256sum: 26cae3d9223bd767d8d734acc518135fda54a417f8db3511d76ecec589c2d9ba
+Size: 29316591
+SHA256sum: 85e06ce10dcb88cfc867aa69a872954e8ac6cdb0bd3323b6580b3f9455f23ed4
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount
@@ -1075,10 +1075,10 @@ Depends: kernel (=5.15.167-1-d3b960f62a85ee91c909201034d0a701), kmod-lib-crc16, 
 License: GPL-2.0-only MIT
 Section: kernel
 Architecture: x86_64
-Installed-Size: 104837
+Installed-Size: 104839
 Filename: kmod-batman-adv_5.15.167+2023.1-7_x86_64.ipk
-Size: 104768
-SHA256sum: d4709081cf459a59592dabc44c41ef4edf0fd8de52d0e920c6ff665e7ce3bee6
+Size: 104791
+SHA256sum: b1072597e3b193657be234d07f84fbfd2e5f1321336820961d85347fc825fe64
 Description:  B.A.T.M.A.N. (better approach to mobile ad-hoc networking) is
  a routing protocol for multi-hop ad-hoc mesh networks. The
  networks may be wired or wireless. See
@@ -2191,10 +2191,10 @@ Depends: kernel (=5.15.167-1-d3b960f62a85ee91c909201034d0a701), kmod-dahdi
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 2586
+Installed-Size: 2584
 Filename: kmod-dahdi-dummy_5.15.167+3.1.0-5_x86_64.ipk
-Size: 3435
-SHA256sum: 593d8b8ceb9804e8f8a3b9bf272ae5e8694e7ddd8b2639b3756f762747cb03a8
+Size: 3432
+SHA256sum: b82e2f5929b67976149e5018dd00ea8cd1ed33d4388dde614d8c002f9cd23ff1
 Description:  This package contains the dummy DAHDI driver providing only DAHDI timing
  without any real telephony hardware.
 
@@ -2204,10 +2204,10 @@ Depends: kernel (=5.15.167-1-d3b960f62a85ee91c909201034d0a701), kmod-dahdi, kmod
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 1718
+Installed-Size: 1717
 Filename: kmod-dahdi-echocan-oslec_5.15.167+3.1.0-5_x86_64.ipk
-Size: 2540
-SHA256sum: 37d1ac82846a25a90c3047d12da34bc43d63366e4a48f0f9a0686175f0a9ee23
+Size: 2534
+SHA256sum: 4831fef094e5630ab895b7af3d3752d65cdfae6d003455a70a523e400cbbb13b
 Description:  This package contains DAHDI OSLEC echo canceller support.
 
 Package: kmod-dahdi-hfcs
@@ -2216,10 +2216,10 @@ Depends: kernel (=5.15.167-1-d3b960f62a85ee91c909201034d0a701), kmod-dahdi
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 10601
+Installed-Size: 10599
 Filename: kmod-dahdi-hfcs_5.15.167+3.1.0-5_x86_64.ipk
-Size: 11473
-SHA256sum: 833ba18412ac3a32ecefca3ae9013d2fdaf51a24bb18f31f1071345fa15b9399
+Size: 11468
+SHA256sum: ff514196056b49b069cf424444c2b6ba95748f674520ed9761f1940c14378758
 Description:  This package contains DAHDI driver for HFC-S based PCI BRI adapters.
 
 Package: kmod-dahdi
@@ -2228,10 +2228,10 @@ Depends: kernel (=5.15.167-1-d3b960f62a85ee91c909201034d0a701), kmod-lib-crc-cci
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 61969
+Installed-Size: 61967
 Filename: kmod-dahdi_5.15.167+3.1.0-5_x86_64.ipk
-Size: 62567
-SHA256sum: f2f2a7c578bc8299bb94128fba46d0e7cdeb5b2542c0919a6e5f87dec8b5c19c
+Size: 62575
+SHA256sum: ab92bbc0dcc84bb50f9addc8a54e6afc4641116858f080ffe05899beef8b1f19
 Description:  This package contains DAHDI basic infrastructure.
 
 Package: kmod-dax
@@ -2600,10 +2600,10 @@ Depends: kernel (=5.15.167-1-d3b960f62a85ee91c909201034d0a701), kmod-ipt-conntra
 Conflicts: kmod-shortcut-fe-drv, kmod-shortcut-fe-cm
 Section: kernel
 Architecture: x86_64
-Installed-Size: 10325
+Installed-Size: 10503
 Filename: kmod-fast-classifier_5.15.167-6_x86_64.ipk
-Size: 11117
-SHA256sum: 5382b52dfe44023c6b363e6c0568b78f9d1095c7425060e64b07277ba45911fd
+Size: 11316
+SHA256sum: 0b444bc6ae132a45de930c49986d42ce12ac826958fddb95e82d4ee59ba10252
 Description:  FAST Classifier talks to SFE to make decisions about offloading connections
 
 Package: kmod-fb-cfb-copyarea
@@ -4993,10 +4993,10 @@ Depends: kernel (=5.15.167-1-d3b960f62a85ee91c909201034d0a701), kmod-ipt-core, k
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 7625
+Installed-Size: 7626
 Filename: kmod-ipt-account_5.15.167+3.24-1_x86_64.ipk
-Size: 8468
-SHA256sum: 1c7adf8a746dfaa554b40571c3f8471389cddbc2bce7c3d8f38ff327da08bdea
+Size: 8473
+SHA256sum: badb664368974aa3c194e42e5eb90e5c8f6b25a52c1f459490f0605ddba67bf3
 Description:  ACCOUNT netfilter module
 
 Package: kmod-ipt-chaos
@@ -5007,8 +5007,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 2370
 Filename: kmod-ipt-chaos_5.15.167+3.24-1_x86_64.ipk
-Size: 3179
-SHA256sum: 09027987b27101367f1fcb4933fe6f1509042b03fe584b95d313524c959d26b2
+Size: 3184
+SHA256sum: acf4560aba338feab9aff8fb00793bde3e661eeda18eb45254dd33814a937b73
 Description:  CHAOS netfilter module
 
 Package: kmod-ipt-checksum
@@ -5075,8 +5075,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 965
 Filename: kmod-ipt-compat-xtables_5.15.167+3.24-1_x86_64.ipk
-Size: 1797
-SHA256sum: 1d11194e37fe3a62f3a4db6d0063c9d7dd0298231c0a31c05fe5162192f1925c
+Size: 1796
+SHA256sum: 91cd751a3bfb6270e4ceda972163fe3e79960f1b5c5254b90d8908465d5609cf
 Description:  API compatibilty layer netfilter module
 
 Package: kmod-ipt-condition
@@ -5085,10 +5085,10 @@ Depends: kernel (=5.15.167-1-d3b960f62a85ee91c909201034d0a701), kmod-ipt-core
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 2813
+Installed-Size: 2814
 Filename: kmod-ipt-condition_5.15.167+3.24-1_x86_64.ipk
-Size: 3593
-SHA256sum: 17c21b6232bef439a613f67e904d2e31f34bbe8ab6917a15715794c40e1d4934
+Size: 3600
+SHA256sum: 2486bf364d6136674dd1ea1096551cf1c1c78abb4af8e4f56af889dadeacf7c4
 Description:  Condition netfilter module
 
 Package: kmod-ipt-conntrack-extra
@@ -5147,10 +5147,10 @@ Depends: kernel (=5.15.167-1-d3b960f62a85ee91c909201034d0a701), kmod-ipt-core, l
 License: GPL-2.0-or-later
 Section: kernel
 Architecture: x86_64
-Installed-Size: 5430
+Installed-Size: 5427
 Filename: kmod-ipt-coova_5.15.167+1.6-9.1_x86_64.ipk
-Size: 6213
-SHA256sum: 157606c9eca905f4e9620d9b671196065e3095bd2c4bb01ef9c437f5ae71a658
+Size: 6214
+SHA256sum: 2e2924d4edbf1a90c09d62e36898d8a7beddab2bb1324d3f5ae00c3eb80e763c
 Description:  Netfilter kernel module for CoovaChilli
 
 Package: kmod-ipt-core
@@ -5195,8 +5195,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 2163
 Filename: kmod-ipt-delude_5.15.167+3.24-1_x86_64.ipk
-Size: 2960
-SHA256sum: 390864706b61295f2566dfc4431d8b0ec7cdec9aad4c93f874bb906793e22d1c
+Size: 2961
+SHA256sum: 5f22f40a252670e0c7cb6f7a31f4bd0893df4e8811c6279428e4bc0a44826052
 Description:  DELUDE netfilter module
 
 Package: kmod-ipt-dhcpmac
@@ -5207,8 +5207,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 1911
 Filename: kmod-ipt-dhcpmac_5.15.167+3.24-1_x86_64.ipk
-Size: 2708
-SHA256sum: 801906d8f7d700a08c73a0335baec2a0de0caaf963953c8d7d70b11a4f8bb1d3
+Size: 2707
+SHA256sum: aea1debc84ec19e4c830b9a2ee403a73ccfc764dfcc22f5269cfd1b13818f8ef
 Description:  DHCPMAC netfilter module
 
 Package: kmod-ipt-dnetmap
@@ -5217,10 +5217,10 @@ Depends: kernel (=5.15.167-1-d3b960f62a85ee91c909201034d0a701), kmod-ipt-core, k
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 969
+Installed-Size: 971
 Filename: kmod-ipt-dnetmap_5.15.167+3.24-1_x86_64.ipk
-Size: 1796
-SHA256sum: a19d6d1e83511b649169a1ccebf3deab796a4d2a00f3cf4924006d969294df2f
+Size: 1803
+SHA256sum: 96fbfa9c39e34c70f26b627bef15338e9397ccc45a9110966c169a8fdfb529ab
 Description:  DNETMAP netfilter module
 
 Package: kmod-ipt-extra
@@ -5261,10 +5261,10 @@ Depends: kernel (=5.15.167-1-d3b960f62a85ee91c909201034d0a701), kmod-nf-ipt, kmo
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 7346
+Installed-Size: 7348
 Filename: kmod-ipt-fullconenat_5.15.167+2022-02-13-108a36cb-6_x86_64.ipk
-Size: 8183
-SHA256sum: 8134f6fc8617d3010bb078cdf9ff63ae2d0144878449af5d4ed59ec29044fb18
+Size: 8184
+SHA256sum: aa403e0fda6cdf54f91960395904bf869a3d3c73c302e82588a03c0dfd621818
 Description:  FULLCONENAT netfilter module
 
 Package: kmod-ipt-fuzzy
@@ -5273,10 +5273,10 @@ Depends: kernel (=5.15.167-1-d3b960f62a85ee91c909201034d0a701), kmod-ipt-core
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 1518
+Installed-Size: 1521
 Filename: kmod-ipt-fuzzy_5.15.167+3.24-1_x86_64.ipk
-Size: 2307
-SHA256sum: 4b7486f7b499aeaefd4abd16bf7ac8754d4c4305fae5c8bf86142f303c14074b
+Size: 2306
+SHA256sum: 4cf6389905806ab228f4a635ead6867ae159dc4218022c5a3ad3d8d8606f8a16
 Description:  fuzzy netfilter module
 
 Package: kmod-ipt-geoip
@@ -5285,10 +5285,10 @@ Depends: kernel (=5.15.167-1-d3b960f62a85ee91c909201034d0a701), kmod-ipt-core
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 3044
+Installed-Size: 3045
 Filename: kmod-ipt-geoip_5.15.167+3.24-1_x86_64.ipk
-Size: 3828
-SHA256sum: 8937a5829e0a33543e76f80f5ac11c9b60c0f4645dc2730188070eacc1eaabb7
+Size: 3829
+SHA256sum: 39a7e89332cff10ab3bb3ad2f483c518888398b02fc122b4893f3f0d1743306a
 Description:  geoip netfilter module
 
 Package: kmod-ipt-hashlimit
@@ -5309,10 +5309,10 @@ Depends: kernel (=5.15.167-1-d3b960f62a85ee91c909201034d0a701), kmod-ipt-core
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 1389
+Installed-Size: 1390
 Filename: kmod-ipt-iface_5.15.167+3.24-1_x86_64.ipk
-Size: 2203
-SHA256sum: c55a705c7b5c407a0caeff27d8cbc9f11c65dc90e1dc2161d1c87d63c50f7d15
+Size: 2200
+SHA256sum: 1b61c0d594a8620fed32363b42d1e48db52ddf6768f276d5baa0406250fecf47
 Description:  iface netfilter module
 
 Package: kmod-ipt-ipmark
@@ -5323,8 +5323,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 1300
 Filename: kmod-ipt-ipmark_5.15.167+3.24-1_x86_64.ipk
-Size: 2130
-SHA256sum: 6868bdb5eae05f2b9bbf8fb5500dd7028db6d655ced2923a64300e253dba0688
+Size: 2133
+SHA256sum: bb2326e37bb15e9ff1812bb4af8b490e54f79e5e650ca6b89842b2086e0347f9
 Description:  IPMARK netfilter module
 
 Package: kmod-ipt-ipopt
@@ -5357,10 +5357,10 @@ Depends: kernel (=5.15.167-1-d3b960f62a85ee91c909201034d0a701), kmod-ipt-core, k
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 5712
+Installed-Size: 5714
 Filename: kmod-ipt-ipp2p_5.15.167+3.24-1_x86_64.ipk
-Size: 6496
-SHA256sum: 4fbeaab78c1c6cec05250c7672b7d263e1d8b1e1b3c8fef4dec425fe89e1d762
+Size: 6506
+SHA256sum: 6061b39139168a74a84e3d355e8cc7c888dfbd2c2b7661e66714d0ca607f3a85
 Description:  IPP2P netfilter module
 
 Package: kmod-ipt-iprange
@@ -5413,8 +5413,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 1156
 Filename: kmod-ipt-ipv4options_5.15.167+3.24-1_x86_64.ipk
-Size: 1967
-SHA256sum: 20ae3a9eee3b9ed800e2f5353cf2afb0118e0ce9b4c888ed37406814d08dcb19
+Size: 1971
+SHA256sum: f496aa9d92e97bcb1a7f74f061dd6376fbb3b9d55d6f83a42676142eb0f0f962
 Description:  ipv4options netfilter module
 
 Package: kmod-ipt-led
@@ -5435,10 +5435,10 @@ Depends: kernel (=5.15.167-1-d3b960f62a85ee91c909201034d0a701), kmod-ipt-core, k
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 2354
+Installed-Size: 2355
 Filename: kmod-ipt-length2_5.15.167+3.24-1_x86_64.ipk
-Size: 3150
-SHA256sum: f5b724bee2d0a5a10e02b631e79639c25b1d0d837f6164fe8b6e4aede874fbdd
+Size: 3158
+SHA256sum: e4dcf73bea7b0124282300c62542909ed5a9013d97fc392b40e3e9811c1203c3
 Description:  length2 netfilter module
 
 Package: kmod-ipt-logmark
@@ -5449,8 +5449,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 1911
 Filename: kmod-ipt-logmark_5.15.167+3.24-1_x86_64.ipk
-Size: 2715
-SHA256sum: 6962766d434d9e0e444e2c1d18bd3b54a2d099cb233d116a134f6dad9cde8bd9
+Size: 2716
+SHA256sum: 8a1f38e9a3b70280d15bb5dd25278c0c1b387aaa6ac6c21af31e9a82fbb873ba
 Description:  LOGMARK netfilter module
 
 Package: kmod-ipt-lscan
@@ -5459,10 +5459,10 @@ Depends: kernel (=5.15.167-1-d3b960f62a85ee91c909201034d0a701), kmod-ipt-core
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 2525
+Installed-Size: 2524
 Filename: kmod-ipt-lscan_5.15.167+3.24-1_x86_64.ipk
 Size: 3304
-SHA256sum: a77f246b4065b1a73873ade7a96f27d70c96279e6edfdf1bbe791e728dcae4ce
+SHA256sum: 338c1617375f0d4e1392807cc98b750470eb3afad87189ee60ab03af8226a816
 Description:  lscan netfilter module
 
 Package: kmod-ipt-lua
@@ -5471,10 +5471,10 @@ Depends: kernel (=5.15.167-1-d3b960f62a85ee91c909201034d0a701), kmod-ipt-core, k
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 80289
+Installed-Size: 80290
 Filename: kmod-ipt-lua_5.15.167+3.24-1_x86_64.ipk
-Size: 80799
-SHA256sum: 4a0dfeb6c629aeec41a19c0a5567466e1032ab5e0cdc52b4ce68a982fedda099
+Size: 80811
+SHA256sum: 25e1c3da2354ac3db6ccb9064dde5001ec5893a505a48fbd239893707b168d2a
 Description:  Lua PacketScript netfilter module
 
 Package: kmod-ipt-nat-extra
@@ -5524,10 +5524,10 @@ Depends: kernel (=5.15.167-1-d3b960f62a85ee91c909201034d0a701), kmod-ipt-core, k
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 9527
+Installed-Size: 9526
 Filename: kmod-ipt-nathelper-rtsp_5.15.167+3.24-1_x86_64.ipk
-Size: 10358
-SHA256sum: 7161ab3a60232be77ce908d21f9c2868d24a4c07cfd500e4cc8a5afe9a4fc1d7
+Size: 10357
+SHA256sum: 975c2c2b9d950c958f28ed4eddf06009e8404befe1a1c02a0c3c6ab961068e68
 Description:  RTSP Conntrack and NAT netfilter module
 
 Package: kmod-ipt-nflog
@@ -5588,10 +5588,10 @@ Depends: kernel (=5.15.167-1-d3b960f62a85ee91c909201034d0a701), kmod-ipt-core
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 2067
+Installed-Size: 2068
 Filename: kmod-ipt-proto_5.15.167+3.24-1_x86_64.ipk
-Size: 2842
-SHA256sum: 63bc0e463d8a6f0989432385ce382fc3197de64e65e9ad37fb46f9577440964e
+Size: 2840
+SHA256sum: 3de63fdc4a21ff521884326648a94e57b25cdc9ebaf4429a6a5dd91ab2acaa12
 Description:  PROTO netfilter module
 
 Package: kmod-ipt-psd
@@ -5600,10 +5600,10 @@ Depends: kernel (=5.15.167-1-d3b960f62a85ee91c909201034d0a701), kmod-ipt-core
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 3316
+Installed-Size: 3317
 Filename: kmod-ipt-psd_5.15.167+3.24-1_x86_64.ipk
-Size: 4102
-SHA256sum: 721272bb0e591afa3ada7ffa7b4f947beb7bcdc872828c3b953cb8f5f3c3de4d
+Size: 4105
+SHA256sum: 2b70419e47d732e69840153fc4ac35c526fe32436dc17b60a2a1d4e807c91da3
 Description:  psd netfilter module
 
 Package: kmod-ipt-quota2
@@ -5612,10 +5612,10 @@ Depends: kernel (=5.15.167-1-d3b960f62a85ee91c909201034d0a701), kmod-ipt-core
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 3414
+Installed-Size: 3417
 Filename: kmod-ipt-quota2_5.15.167+3.24-1_x86_64.ipk
-Size: 4215
-SHA256sum: 558a5f6f887704472f4fd001f72a58f16db9394446ffd3bef14589c0c4ec0388
+Size: 4217
+SHA256sum: 32ece742253f65efff560082e0250079d67d81a3faffe24284acbc79bc7d063b
 Description:  quota2 netfilter module
 
 Package: kmod-ipt-raw6
@@ -5660,10 +5660,10 @@ Depends: kernel (=5.15.167-1-d3b960f62a85ee91c909201034d0a701), kmod-crypto-aead
 License: GPL-3.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 23763
+Installed-Size: 23764
 Filename: kmod-ipt-rtpengine_5.15.167+10.5.6.3-1_x86_64.ipk
 Size: 24626
-SHA256sum: 65e36d5bc2ae11a39d90c58c5a7c41d2109b1ef1cb01ca288a4751181d5df3cf
+SHA256sum: af3b84a07234a3dce055ec3b0221aa096b2604f7639dde8b449cf85bcd12e634
 Description:  Netfilter kernel module for rtpengine
  
 
@@ -5687,8 +5687,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 3721
 Filename: kmod-ipt-sysrq_5.15.167+3.24-1_x86_64.ipk
-Size: 4551
-SHA256sum: 948e8b880850e0883f67b729d8610be24bebfe12173ebc7b205007d4941d49e5
+Size: 4548
+SHA256sum: 8cfa34a5540557b00b2c0b4a480b5124d79ef53185620bd426d12c20ce2f0cc1
 Description:  SYSRQ netfilter module
 
 Package: kmod-ipt-tarpit
@@ -5699,8 +5699,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 4025
 Filename: kmod-ipt-tarpit_5.15.167+3.24-1_x86_64.ipk
-Size: 4827
-SHA256sum: 5c936c5147157ab83d8283740ccffeba5cef69401263e3c294ceea6fa0004846
+Size: 4834
+SHA256sum: 9e3d1a1ba4765c98c2c8ce522072375752cd9e03329eea5332207f221977f8f1
 Description:  TARPIT netfilter module
 
 Package: kmod-ipt-tee
@@ -5895,10 +5895,10 @@ Depends: kernel (=5.15.167-1-d3b960f62a85ee91c909201034d0a701), kmod-crypto-md5,
 License: GPL-2.0-only
 Section: kernel
 Architecture: x86_64
-Installed-Size: 93783
+Installed-Size: 93787
 Filename: kmod-jool-netfilter_5.15.167+4.1.12-1_x86_64.ipk
-Size: 93972
-SHA256sum: 51d26447c5a654fc3bca0fa88c040204d3adbbd61744e307f85c6d8d82a786f2
+Size: 93975
+SHA256sum: 4098c54887723a483cf8e5de3ce1a6a049e033540165a3f56d430dee0c296861
 Description:  Jool is an Open Source SIIT and NAT64 for Linux.
  
  This package provides the kernel module for Jool with netfilter API Only.
@@ -6553,10 +6553,10 @@ Depends: kernel (=5.15.167-1-d3b960f62a85ee91c909201034d0a701), kmod-cfg80211, k
 License: GPL-2.0-only
 Section: kernel
 Architecture: x86_64
-Installed-Size: 8990
+Installed-Size: 8993
 Filename: kmod-macremapper_5.15.167-x86-2_x86_64.ipk
-Size: 9842
-SHA256sum: a458c50f1e74106854ce5a798c84b98cb14f173dbbeedc16073b3b00acdeafc7
+Size: 9850
+SHA256sum: b2e867dcfd752bfc28c963508d1b692348690c96b20f0bb245d83338223da2de
 Description:  Linux kernel module for implementation the DCW filtering mechanism
 
 Package: kmod-macsec
@@ -6709,10 +6709,10 @@ Depends: kernel (=5.15.167-1-d3b960f62a85ee91c909201034d0a701)
 License: GPL-2.0-only
 Section: kernel
 Architecture: x86_64
-Installed-Size: 3225
+Installed-Size: 3222
 Filename: kmod-mdio-netlink_5.15.167+1.2.0-1_x86_64.ipk
 Size: 4011
-SHA256sum: 8847272678b03d0449f33316070ba284be3ac677adf588c52293ed801815cb9e
+SHA256sum: 708ca78ad6136979f35c9eefcc01ceb6301ba619031236fa97de508e04295f8a
 Description:  mdio-netlink Linux MDIO netlink kernel module
 
 Package: kmod-mdio
@@ -7542,10 +7542,10 @@ Depends: kernel (=5.15.167-1-d3b960f62a85ee91c909201034d0a701), kmod-ipt-conntra
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 71011
+Installed-Size: 71012
 Filename: kmod-natflow_5.15.167+8a68613-0_x86_64.ipk
-Size: 71751
-SHA256sum: 70b841aa010f4cbaf6c34bf2314e0513f4dbaa91601cce9d0b8a30ef9f3b894c
+Size: 71757
+SHA256sum: 4df6c2755d0a8d91a5d93cefb3ad6ea7c1ada10119a337a73886ad53fc83ab65
 Description:  fast nat forward kmod
 
 Package: kmod-natsemi
@@ -7603,10 +7603,10 @@ Depends: kernel (=5.15.167-1-d3b960f62a85ee91c909201034d0a701)
 License: GPL-2.0
 Section: kernel
 Architecture: x86_64
-Installed-Size: 7271
+Installed-Size: 7269
 Filename: kmod-netatop_5.15.167+3.1-1_x86_64.ipk
-Size: 8361
-SHA256sum: aea017f705efd2097b09331df49ea753b531be8a220e5e23e22c7b1d7ea4ea50
+Size: 8359
+SHA256sum: 02648d4cf9ca78549bf184308f33d4cd3b86c3ebf2c882776267a302052db739
 Description:  The optional kernel module netatop can be loaded to gather statistics about
  the TCP and UDP packets that have been transmitted/received per process and
  per thread. As soon as atop discovers that this module is active, it shows
@@ -8450,10 +8450,10 @@ Version: 5.15.167-1
 Depends: kernel (=5.15.167-1-d3b960f62a85ee91c909201034d0a701), kmod-ipt-conntrack
 Section: Derry Apps
 Architecture: x86_64
-Installed-Size: 106826
+Installed-Size: 106825
 Filename: kmod-oaf_5.15.167-1_x86_64.ipk
-Size: 106963
-SHA256sum: b47ef27428b1f8a153a9a0899fb6afcf1d533d88b656837abfae211b52d10534
+Size: 106965
+SHA256sum: de503462b43ed454984f9ef3b328d835abe42957983170bfe8372182f5b05f14
 Description:  open appfilter kernel module 
 
 Package: kmod-oid-registry
@@ -8477,8 +8477,8 @@ CPE-ID: cpe:/a:openvswitch:openvswitch
 Architecture: x86_64
 Installed-Size: 1557
 Filename: kmod-openvswitch-geneve_5.15.167+2.17.9-1_x86_64.ipk
-Size: 2385
-SHA256sum: 2528ac0fa8dc8dd8fa46d6184c965fa34c845ce19aa87251611a549fc4587f68
+Size: 2391
+SHA256sum: a906d35af97974579569c704ab583bd3fe6d372a22b1150cd7d3b2a6e7384dd2
 Description:  Open vSwitch Geneve tunneling support (upstream)
 
 Package: kmod-openvswitch-gre
@@ -8488,10 +8488,10 @@ License: Apache-2.0
 Section: kernel
 CPE-ID: cpe:/a:openvswitch:openvswitch
 Architecture: x86_64
-Installed-Size: 1333
+Installed-Size: 1332
 Filename: kmod-openvswitch-gre_5.15.167+2.17.9-1_x86_64.ipk
-Size: 2184
-SHA256sum: ac0decf5100736266ff5d99395f05dc1d6e0512bdfa19c9c695d784c60cb5b95
+Size: 2180
+SHA256sum: f16ad578c7cabc5c1e8e31d951faa805838f384f65f35044dc3cdfa92248e0b0
 Description:  Open vSwitch GRE tunneling support (upstream)
 
 Package: kmod-openvswitch-vxlan
@@ -8501,10 +8501,10 @@ License: Apache-2.0
 Section: kernel
 CPE-ID: cpe:/a:openvswitch:openvswitch
 Architecture: x86_64
-Installed-Size: 1905
+Installed-Size: 1903
 Filename: kmod-openvswitch-vxlan_5.15.167+2.17.9-1_x86_64.ipk
-Size: 2732
-SHA256sum: 8caabc9a2b4b65e03f4ae804e7273225e2921195f92ebf08705bae13925fad4c
+Size: 2729
+SHA256sum: 0b40e29253a015b3dfb51ca105fb0ae90ffd196e24c211ff910630de8b4c05e7
 Description:  Open vSwitch VXLAN tunneling support (upstream)
 
 Package: kmod-openvswitch
@@ -8514,10 +8514,10 @@ License: Apache-2.0
 Section: kernel
 CPE-ID: cpe:/a:openvswitch:openvswitch
 Architecture: x86_64
-Installed-Size: 71058
+Installed-Size: 71056
 Filename: kmod-openvswitch_5.15.167+2.17.9-1_x86_64.ipk
-Size: 71965
-SHA256sum: 71b1011e00a0d9ac4884008e055bf1d95be34666296d36c52730261614365cdd
+Size: 71943
+SHA256sum: 125f9a846490b65a7d5ddeb18ffc85bdeb8f79ce39adf14d6b07d65f3339c57a
 Description:  Open vSwitch kernel datapath (upstream)
 
 Package: kmod-ovpn-dco
@@ -8526,10 +8526,10 @@ Depends: kernel (=5.15.167-1-d3b960f62a85ee91c909201034d0a701), kmod-crypto-aead
 License: GPL-2.0-only
 Section: kernel
 Architecture: x86_64
-Installed-Size: 25740
+Installed-Size: 25739
 Filename: kmod-ovpn-dco_5.15.167+2022-10-23-d1d53564-3_x86_64.ipk
-Size: 26553
-SHA256sum: e3b091e870d27944e743d37491a86650e59828c08eed63e00c87ccd05bab1063
+Size: 26558
+SHA256sum: 2a0bf245e644a0b82c1043485e66aced7bbf3133aedb025eb8fdd950e7f3546f
 Description:  This module enhances the performance of the OpenVPN userspace software
  by offloading the data channel processing to kernelspace.
 
@@ -8679,8 +8679,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 58925
 Filename: kmod-pf-ring_5.15.167+8.4.0-2_x86_64.ipk
-Size: 59546
-SHA256sum: a4adbc1d8fd4dec88fb1300d15bf78123b8bf6ea033bf2d73ca1522eb5740ecf
+Size: 59557
+SHA256sum: c7d6870bbee28a9607e2827c6ceee6c9d36dd788f21fe9c614c55d8ddfe32be4
 Description:  Kernel module for libpf-ring package
 
 Package: kmod-phy-aquantia
@@ -10078,10 +10078,10 @@ Depends: kernel (=5.15.167-1-d3b960f62a85ee91c909201034d0a701), kmod-ipt-conntra
 Conflicts: kmod-shortcut-fe-drv
 Section: kernel
 Architecture: x86_64
-Installed-Size: 6479
+Installed-Size: 6481
 Filename: kmod-shortcut-fe-cm_5.15.167-8_x86_64.ipk
-Size: 7253
-SHA256sum: 405c7f2f87aac8ea69f533ec03f78cec763c68989f21efb542199ac83a569a85
+Size: 7259
+SHA256sum: 7438aa295f9d51f5f0b42cb60555e255c86051ac38db9073e667a1018b05f749
 Description:  Kernel driver for SFE
 
 Package: kmod-shortcut-fe
@@ -10090,10 +10090,10 @@ Depends: kernel (=5.15.167-1-d3b960f62a85ee91c909201034d0a701), kmod-nf-conntrac
 Provides: shortcut-fe
 Section: kernel
 Architecture: x86_64
-Installed-Size: 25278
+Installed-Size: 25284
 Filename: kmod-shortcut-fe_5.15.167-8_x86_64.ipk
-Size: 25973
-SHA256sum: 42022100d918e29a64049cd10fbcd08d310a41a8dbb82f00d86a538ba4770b76
+Size: 25980
+SHA256sum: dbdd8534dac067a00cf08ed62b49b69fda6be812b60c2aea897ed0a8a52e858a
 Description:  Kernel driver for SFE
 
 Package: kmod-siit
@@ -10102,10 +10102,10 @@ Depends: kernel (=5.15.167-1-d3b960f62a85ee91c909201034d0a701)
 License: GPL-2.0-or-later
 Section: kernel
 Architecture: x86_64
-Installed-Size: 5503
+Installed-Size: 5502
 Filename: kmod-siit_5.15.167+1.2-4_x86_64.ipk
 Size: 6296
-SHA256sum: 42633b4f37b04a2c872a5e4a764cea90a89b0fe7ca575bf0d2c513813df52389
+SHA256sum: 46e80b5ad1c8b6e44e92709876d1862b265086281c9cb071ea3649c8095da269
 Description:  Stateless IP ICMP Translation Algorithm
 
 Package: kmod-sis190
@@ -11384,10 +11384,10 @@ Conflicts: kmod-usb-net-rtl8152
 License: GPL-2.0-only
 Section: kernel
 Architecture: x86_64
-Installed-Size: 122020
+Installed-Size: 122021
 Filename: kmod-usb-net-rtl8152-vendor_5.15.167+2.18.1.20240701-1_x86_64.ipk
-Size: 115947
-SHA256sum: 7338cad930e8098747052f0159990174b9c6815700cd00422d310a45296997e8
+Size: 115965
+SHA256sum: e564912af7516c61c0abd4c32313df7853bed80600d78b73f2d6ab3fbec60fca
 Description:  Kernel module for Realtek RTL8152/RTL8153 Based USB Ethernet Adapters
 
 Package: kmod-usb-net-rtl8152
@@ -11593,8 +11593,8 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 4875
 Filename: kmod-usb-serial-dmx_usb_module_5.15.167+19.12.1-1_x86_64.ipk
-Size: 5768
-SHA256sum: 06ffc11fc4e1934645de6e87bb823cb02b7d16ca89a1314722f23c62118dc8c8
+Size: 5767
+SHA256sum: 06c84d7b24735ba9f85c39a625e190d7da323ccfd0898f465458e53ef99c24e2
 Description:  Open DMX USB is an open USB to DMX dongle hardware design developed by Enttec.
  The Open in Open DMX USB refers to the fact that everybody is free to use the
  design and produce its own USB DMX Dongle without paying any licenses.
@@ -11838,10 +11838,10 @@ Depends: kernel (=5.15.167-1-d3b960f62a85ee91c909201034d0a701), kmod-usb-serial
 License: GPL-2.0-or-later
 Section: kernel
 Architecture: x86_64
-Installed-Size: 13345
+Installed-Size: 13343
 Filename: kmod-usb-serial-xr_usb_serial_common_5.15.167+2022-03-30-ecc6ebe0-1_x86_64.ipk
-Size: 14182
-SHA256sum: db180a4863116339cb404378210096a3b30f7589324e5ec68e83f6e6ac979b4f
+Size: 14174
+SHA256sum: d1a62c03609319ec3d16b5edbccdf8dc8e155d584ebc350b0964fe8a8cb752e0
 Description:  Support for Exar USB to RS-485/RS-422
 
 Package: kmod-usb-serial
@@ -12049,8 +12049,8 @@ CPE-ID: cpe:/o:v4l2loopback_project:v4l2loopback
 Architecture: x86_64
 Installed-Size: 17066
 Filename: kmod-v4l2loopback_5.15.167+v0.12.7-2_x86_64.ipk
-Size: 17983
-SHA256sum: 0bbee2356d63271bf8795cd04dbb251cf56390823102c7040eecf2df76174bfc
+Size: 17994
+SHA256sum: 4b44dff0f44f4a76bc96e196ab50eb47c8c5eeece21ae35f6dd764dab4538493
 Description:  This module allows you to create "virtual video devices".
  Normal (v4l2) applications will read these devices as if
  they were ordinary video devices, but the video will not be
